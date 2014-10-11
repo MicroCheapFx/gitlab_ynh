@@ -1,0 +1,36 @@
+{
+    "name": "GitLab",
+    "id": "gitlab",
+    "description": {
+        "en": "Git repository management, code reviews, issue tracking, activity feeds, wikis",
+        "fr": "Gestion de dépôt git"
+    },
+    "developer": {
+        "name": "Moul",
+        "email": "moul@moul.re",
+        "url": "yunohost.org"
+    },
+    "multi_instance": "true",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "ask": {
+                    "en": "Choose a domain for GitLab"
+                    "fr": "Choisi un nom de domaine pour installer GitLab"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "ask": {
+                    "en": "Choose a path for Mumble"
+                    "fr": "Choisi une adresse pour installer GitLab"
+                },
+                "example": "/gitlab",
+                "default": "/gitlab"
+            }
+        ]
+
+    }
+}

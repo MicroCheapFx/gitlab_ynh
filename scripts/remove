@@ -1,0 +1,6 @@
+#!/bin/bash
+
+db_user=yacy
+db_name=yacy
+root_pwd=$(sudo cat /etc/yunohost/mysql)
+domain=$(sudo yunohost app setting yacy domain)

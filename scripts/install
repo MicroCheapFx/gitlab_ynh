@@ -1,0 +1,21 @@
+#!/bin/bash 
+
+# Retrieve arguments
+domain=$1
+path=$2
+
+# Check domain/path availability
+sudo yunohost app checkurl $domain$path -a gitlab
+if [[ ! $? -eq 0 ]]; then
+    exit 1
+fi
+
+# Download the Omnibus package and install everything
+wget https://downloads-packages.s3.amazonaws.com/debian-7.6/gitlab_7.3.2-omnibus-1_amd64.deb
+sudo apt-get install openssh-server
+sudo apt-get install postfix # Select 'Internet Site', using sendmail instead also works, exim has problems
+sudo dpkg -i gitlab_7.3.2-omnibus-1_amd64.deb
+
+# Reload Nginx and regenerate SSOwat conf
+sudo service nginx reload
+sudo yunohost app ssowatconf
