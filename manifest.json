@@ -16,7 +16,7 @@
             {
                 "name": "domain",
                 "ask": {
-                    "en": "Choose a domain for GitLab"
+                    "en": "Choose a domain for GitLab",
                     "fr": "Choisi un nom de domaine pour installer GitLab"
                 },
                 "example": "domain.org"
@@ -24,7 +24,7 @@
             {
                 "name": "path",
                 "ask": {
-                    "en": "Choose a path for Mumble"
+                    "en": "Choose a path for GitLab",
                     "fr": "Choisi une adresse pour installer GitLab"
                 },
                 "example": "/gitlab",
