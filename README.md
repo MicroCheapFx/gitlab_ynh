@@ -9,5 +9,5 @@ GitLab for YunoHost
 
 **Needed:**
 * Currently only 64 bits architectures supported
-* Should follow that [documentation](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md) to code scripts and to support all architectures
+* Should follow that [documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/installation.md) to code scripts and to support all architectures
 * Update manifest to new version
