@@ -3,7 +3,7 @@
     "id": "gitlab",
     "description": {
         "en": "Git repository management, code reviews, issue tracking, activity feeds, wikis",
-        "fr": "Gestion de dépôt git"
+        "fr": "Gestionnaire de dépôt git"
     },
     "developer": {
         "name": "Moul",
