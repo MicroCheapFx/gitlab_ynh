@@ -1,8 +1,8 @@
-gitlab_ynh
+GitLab for YunoHost
 ==========
 
-GitLab paquage for YunoHost
+**GitLab paquage for YunoHost**
 
-* http://yunohost.org/
+* [YunoHost web site](http://yunohost.org/)
 
-* http://gitlab.org/
+* [GitLab web site](http://gitlab.org/)
